@@ -126,7 +126,7 @@ class ElasticsearchEngine extends Engine
      */
     protected function performSearch(Builder $builder, array $options = [])
     {
-        Log::info('searchableFields='.$builder->model->searchableFields());
+        Log::info('searchableFields='.$builder->model->searchableFields);
         $params = [
             'index' => $this->index,
             'type' => $builder->index ?: $builder->model->searchableAs(),
@@ -136,7 +136,7 @@ class ElasticsearchEngine extends Engine
                         'query' => $builder->query,
                         'type' => 'best_fields',
 //                        'fields' => ["author", "name^5", "isbn", "translator"],
-                        'fields' => $builder->model->searchableFields(),
+                        'fields' => $builder->model->searchableFields,
                         'tie_breaker' => 0.3,
                         'minimum_should_match' => '30%'
                     ]

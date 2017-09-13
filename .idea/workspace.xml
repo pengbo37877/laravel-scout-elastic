@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7850c59-d11f-41d1-bd16-30a419059476" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ElasticsearchEngine.php" afterPath="$PROJECT_DIR$/src/ElasticsearchEngine.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="ElasticsearchEngine.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ElasticsearchEngine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="128" column="73" lean-forward="false" selection-start-line="128" selection-start-column="73" selection-end-line="128" selection-end-column="73" />
+            <state relative-caret-position="374">
+              <caret line="128" column="71" lean-forward="true" selection-start-line="128" selection-start-column="71" selection-end-line="128" selection-end-column="71" />
               <folding>
                 <element signature="e#46#81#0#PHP" expanded="true" />
               </folding>
@@ -143,15 +142,15 @@
       <updated>1505284627820</updated>
       <workItem from="1505284632009" duration="338000" />
       <workItem from="1505285142734" duration="187000" />
-      <workItem from="1505286215346" duration="49000" />
+      <workItem from="1505286215346" duration="369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="574000" />
+    <option name="totallyTimeSpent" value="894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1016" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -211,10 +210,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/ElasticsearchEngineTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505284597000" expanded="false" signature="11:103" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="169:4241" ph="{...}" />
+            <marker date="1505284597000" expanded="true" signature="202:240" ph="{...}" />
+            <marker date="1505284597000" expanded="true" signature="297:945" ph="{...}" />
+            <marker date="1505284597000" expanded="true" signature="406:796" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="407:795" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="431:785" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="449:647" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="483:629" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="667:771" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="1005:1530" ph="{...}" />
+            <marker date="1505284597000" expanded="true" signature="1114:1381" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="1115:1380" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="1139:1370" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="1157:1355" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="1191:1337" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="1607:2581" ph="{...}" />
+            <marker date="1505284597000" expanded="true" signature="1718:2271" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="1719:2270" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="1806:2260" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="1835:2162" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="1867:2144" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="1903:2122" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="2192:2246" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="2676:3410" ph="{...}" />
+            <marker date="1505284597000" expanded="true" signature="3140:3356" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="3475:4239" ph="{...}" />
+            <marker date="1505284597000" expanded="true" signature="3965:4181" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="3966:4172" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="3990:4162" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="4050:4148" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="4072:4130" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="4321:4607" ph="{...}" />
+            <marker date="1505284597000" expanded="true" signature="4360:4390" ph="{...}" />
+            <marker date="1505284597000" expanded="true" signature="4426:4462" ph="{...}" />
+            <marker date="1505284597000" expanded="true" signature="4492:4524" ph="{...}" />
+            <marker date="1505284597000" expanded="true" signature="4565:4605" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1861">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505284597000" expanded="true" signature="69:568" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="414:557" ph="..." />
+            <marker date="1505284597000" expanded="true" signature="460:539" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1505284597000" expanded="true" signature="10:13" ph="php" />
+            <marker date="1505284597000" expanded="true" signature="14:36" ph="php: &lt;2 items&gt;" />
+            <marker date="1505284597000" expanded="true" signature="23:26" ph="7.0" />
+            <marker date="1505284597000" expanded="true" signature="31:36" ph="5.6.6" />
+            <marker date="1505284597000" expanded="true" signature="38:176" ph="before_script: &lt;3 items&gt;" />
+            <marker date="1505284597000" expanded="true" signature="57:65" ph="sleep 10" />
+            <marker date="1505284597000" expanded="true" signature="70:103" ph="travis_re…elf-update" />
+            <marker date="1505284597000" expanded="true" signature="108:176" ph="travis_re…tion --dev" />
+            <marker date="1505284597000" expanded="true" signature="186:226" ph="vendor/ph… --verbose" />
+            <marker date="1505284597000" expanded="true" signature="228:255" ph="services: &lt;1 item&gt;" />
+            <marker date="1505284597000" expanded="true" signature="242:255" ph="elasticsearch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="341">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
             <marker date="1505285218000" expanded="true" signature="0:832" ph="{&quot;name&quot;: &quot;pengbo37877/laravel-scout-elastic&quot;...}" />
             <marker date="1505285218000" expanded="true" signature="187:299" ph="{&quot;php&quot;: &quot;&gt;=5.6.4&quot;...}" />
@@ -230,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ElasticsearchEngine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="128" column="73" lean-forward="false" selection-start-line="128" selection-start-column="73" selection-end-line="128" selection-end-column="73" />
+        <state relative-caret-position="374">
+          <caret line="128" column="71" lean-forward="true" selection-start-line="128" selection-start-column="71" selection-end-line="128" selection-end-column="71" />
           <folding>
             <element signature="e#46#81#0#PHP" expanded="true" />
           </folding>
