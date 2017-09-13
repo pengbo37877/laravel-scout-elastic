@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7850c59-d11f-41d1-bd16-30a419059476" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ElasticsearchEngine.php" afterPath="$PROJECT_DIR$/src/ElasticsearchEngine.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/laravel-scout-elastic.iml" afterPath="$PROJECT_DIR$/.idea/laravel-scout-elastic.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +16,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ElasticsearchEngine.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ElasticsearchEngine.php">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="136" column="57" lean-forward="false" selection-start-line="136" selection-start-column="57" selection-end-line="136" selection-end-column="57" />
+            <state relative-caret-position="217">
+              <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -34,6 +35,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ElasticsearchEngine.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -139,12 +141,12 @@
       <option name="presentableId" value="Default" />
       <updated>1505284627820</updated>
       <workItem from="1505284632009" duration="338000" />
-      <workItem from="1505285142734" duration="11000" />
+      <workItem from="1505285142734" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349000" />
+    <option name="totallyTimeSpent" value="410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1016" extended-state="6" />
@@ -184,23 +186,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4092">
           <caret line="136" column="70" lean-forward="false" selection-start-line="136" selection-start-column="70" selection-end-line="136" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
-            <marker date="1505284597000" expanded="true" signature="0:827" ph="{&quot;name&quot;: &quot;tamayo/laravel-scout-elastic&quot;...}" />
-            <marker date="1505284597000" expanded="true" signature="182:294" ph="{&quot;php&quot;: &quot;&gt;=5.6.4&quot;...}" />
-            <marker date="1505284597000" expanded="true" signature="316:429" ph="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
-            <marker date="1505284597000" expanded="true" signature="447:535" ph="{...}" />
-            <marker date="1505284597000" expanded="true" signature="466:529" ph="{&quot;ScoutEngines\Elasticsearch\&quot;: &quot;src/&quot;...}" />
-            <marker date="1505284597000" expanded="true" signature="557:652" ph="{...}" />
-            <marker date="1505284597000" expanded="true" signature="576:646" ph="{&quot;ScoutEngines\Elasticsearch\Test\&quot;: &quot;tests&quot;...}" />
-            <marker date="1505284597000" expanded="true" signature="669:766" ph="{&quot;elasticsearch/elasticsearch&quot;: &quot;Required to use the Elasticsearch engine (^5.0).&quot;...}" />
+            <marker date="1505285154000" expanded="false" signature="50:241" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="283:6731" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="293:370" ph=" Index where the models will be saved. ..." />
+            <marker date="1505285154000" expanded="true" signature="403:520" ph=" Create a new engine instance. ..." />
+            <marker date="1505285154000" expanded="true" signature="580:658" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="667:779" ph=" Update the given model in the index. ..." />
+            <marker date="1505285154000" expanded="true" signature="817:1364" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="877:1316" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="908:1316" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="952:1161" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="982:1147" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="1197:1304" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="1373:1487" ph=" Remove the given model from the index. ..." />
+            <marker date="1505285154000" expanded="true" signature="1525:1929" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="1585:1881" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="1616:1881" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="1660:1869" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="1690:1855" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="1938:2052" ph=" Perform the given search on the engine. ..." />
+            <marker date="1505285154000" expanded="true" signature="2099:2282" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="2142:2274" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="2165:2273" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="2166:2272" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="2291:2460" ph=" Perform the given search on the engine. ..." />
+            <marker date="1505285154000" expanded="true" signature="2526:2835" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="2572:2738" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="2583:2737" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="2844:2989" ph=" Perform the given search on the engine. ..." />
+            <marker date="1505285154000" expanded="true" signature="3067:4558" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="3093:3717" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="3228:3707" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="3257:3693" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="3296:3675" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="3765:3819" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="3860:3925" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="3966:4031" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4119:4282" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4187:4271" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4318:4502" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4353:4491" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4567:4677" ph=" Get the filter array for the query. ..." />
+            <marker date="1505285154000" expanded="true" signature="4728:5003" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="4781:4978" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4806:4977" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4842:4909" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="5012:5165" ph=" Pluck and return the primary keys of the given results. ..." />
+            <marker date="1505285154000" expanded="true" signature="5204:5290" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="5299:5490" ph=" Map the given results to instances of the given model. ..." />
+            <marker date="1505285154000" expanded="true" signature="5534:6085" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="5594:5642" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="5727:5732" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="5787:5836" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="5852:5872" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="5930:6057" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="5969:6056" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="6094:6226" ph=" Get the total count from a raw result returned by the engine. ..." />
+            <marker date="1505285154000" expanded="true" signature="6272:6326" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="6335:6447" ph=" Generates the sort if theres any. ..." />
+            <marker date="1505285154000" expanded="true" signature="6487:6729" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="6537:6571" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="6620:6710" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="6638:6709" ph="..." />
           </folding>
         </state>
       </provider>
@@ -209,6 +257,77 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="668">
           <caret line="136" column="57" lean-forward="false" selection-start-line="136" selection-start-column="57" selection-end-line="136" selection-end-column="57" />
+          <folding>
+            <marker date="1505285154000" expanded="false" signature="50:241" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="283:6731" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="293:370" ph=" Index where the models will be saved. ..." />
+            <marker date="1505285154000" expanded="true" signature="403:520" ph=" Create a new engine instance. ..." />
+            <marker date="1505285154000" expanded="true" signature="580:658" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="667:779" ph=" Update the given model in the index. ..." />
+            <marker date="1505285154000" expanded="true" signature="817:1364" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="877:1316" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="908:1316" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="952:1161" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="982:1147" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="1197:1304" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="1373:1487" ph=" Remove the given model from the index. ..." />
+            <marker date="1505285154000" expanded="true" signature="1525:1929" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="1585:1881" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="1616:1881" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="1660:1869" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="1690:1855" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="1938:2052" ph=" Perform the given search on the engine. ..." />
+            <marker date="1505285154000" expanded="true" signature="2099:2282" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="2142:2274" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="2165:2273" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="2166:2272" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="2291:2460" ph=" Perform the given search on the engine. ..." />
+            <marker date="1505285154000" expanded="true" signature="2526:2835" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="2572:2738" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="2583:2737" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="2844:2989" ph=" Perform the given search on the engine. ..." />
+            <marker date="1505285154000" expanded="true" signature="3067:4558" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="3093:3717" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="3228:3707" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="3257:3693" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="3296:3675" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="3765:3819" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="3860:3925" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="3966:4031" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4119:4282" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4187:4271" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4318:4502" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4353:4491" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4567:4677" ph=" Get the filter array for the query. ..." />
+            <marker date="1505285154000" expanded="true" signature="4728:5003" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="4781:4978" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4806:4977" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="4842:4909" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="5012:5165" ph=" Pluck and return the primary keys of the given results. ..." />
+            <marker date="1505285154000" expanded="true" signature="5204:5290" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="5299:5490" ph=" Map the given results to instances of the given model. ..." />
+            <marker date="1505285154000" expanded="true" signature="5534:6085" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="5594:5642" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="5727:5732" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="5787:5836" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="5852:5872" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="5930:6057" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="5969:6056" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="6094:6226" ph=" Get the total count from a raw result returned by the engine. ..." />
+            <marker date="1505285154000" expanded="true" signature="6272:6326" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="6335:6447" ph=" Generates the sort if theres any. ..." />
+            <marker date="1505285154000" expanded="true" signature="6487:6729" ph="{...}" />
+            <marker date="1505285154000" expanded="true" signature="6537:6571" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="6620:6710" ph="..." />
+            <marker date="1505285154000" expanded="true" signature="6638:6709" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
           <folding />
         </state>
       </provider>
