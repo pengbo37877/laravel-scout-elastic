@@ -2,6 +2,7 @@
 
 namespace ScoutEngines\Elasticsearch;
 
+use Illuminate\Support\Facades\Log;
 use Laravel\Scout\Builder;
 use Laravel\Scout\Engines\Engine;
 use Elasticsearch\Client as Elastic;
@@ -125,6 +126,7 @@ class ElasticsearchEngine extends Engine
      */
     protected function performSearch(Builder $builder, array $options = [])
     {
+        Log::info('searchableFields='.$builder->model->searchableFields());
         $params = [
             'index' => $this->index,
             'type' => $builder->index ?: $builder->model->searchableAs(),
