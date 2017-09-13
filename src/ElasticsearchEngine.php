@@ -126,7 +126,7 @@ class ElasticsearchEngine extends Engine
      */
     protected function performSearch(Builder $builder, array $options = [])
     {
-        Log::info('searchableFields='.$builder->model->searchableFields);
+        Log::info('searchableFields='.json_encode($builder->model->searchableFields));
         $params = [
             'index' => $this->index,
             'type' => $builder->index ?: $builder->model->searchableAs(),

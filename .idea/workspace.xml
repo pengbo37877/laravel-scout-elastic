@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/ElasticsearchEngine.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="128" column="71" lean-forward="true" selection-start-line="128" selection-start-column="71" selection-end-line="128" selection-end-column="71" />
+              <caret line="128" column="84" lean-forward="false" selection-start-line="128" selection-start-column="84" selection-end-line="128" selection-end-column="84" />
               <folding>
                 <element signature="e#46#81#0#PHP" expanded="true" />
               </folding>
@@ -142,12 +142,12 @@
       <updated>1505284627820</updated>
       <workItem from="1505284632009" duration="338000" />
       <workItem from="1505285142734" duration="187000" />
-      <workItem from="1505286215346" duration="369000" />
+      <workItem from="1505286215346" duration="1171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="894000" />
+    <option name="totallyTimeSpent" value="1696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1016" extended-state="0" />
@@ -335,7 +335,7 @@
     <entry file="file://$PROJECT_DIR$/src/ElasticsearchEngine.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="128" column="71" lean-forward="true" selection-start-line="128" selection-start-column="71" selection-end-line="128" selection-end-column="71" />
+          <caret line="128" column="84" lean-forward="false" selection-start-line="128" selection-start-column="84" selection-end-line="128" selection-end-column="84" />
           <folding>
             <element signature="e#46#81#0#PHP" expanded="true" />
           </folding>
