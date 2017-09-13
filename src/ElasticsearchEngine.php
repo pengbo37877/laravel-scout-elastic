@@ -130,8 +130,13 @@ class ElasticsearchEngine extends Engine
             'type' => $builder->index ?: $builder->model->searchableAs(),
             'body' => [
                 'query' => [
-                    'bool' => [
-                        'must' => [['query_string' => [ 'query' => "*{$builder->query}*"]]]
+                    'multi_match' => [
+                        'query' => $builder->query,
+                        'type' => 'best_fields',
+//                        'fields' => ["author", "name^5", "isbn", "translator"],
+                        'fields' => $builder->model->seachableFields(),
+                        'tie_breaker' => 0.3,
+                        'minimum_should_match' => '30%'
                     ]
                 ]
             ]
