@@ -134,7 +134,7 @@ class ElasticsearchEngine extends Engine
                         'query' => $builder->query,
                         'type' => 'best_fields',
 //                        'fields' => ["author", "name^5", "isbn", "translator"],
-                        'fields' => $builder->model->seachableFields(),
+                        'fields' => $builder->model->searchableFields(),
                         'tie_breaker' => 0.3,
                         'minimum_should_match' => '30%'
                     ]
