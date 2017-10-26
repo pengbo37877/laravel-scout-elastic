@@ -134,7 +134,9 @@ class ElasticsearchEngine extends Engine
                 'type' => $builder->index ?: $builder->model->searchableAs(),
                 'body' => [
                     'query' => [
-                        'wildcard' => $builder->model->wildcard
+                        'wildcard' => [
+                            $builder->model->wildcard => '*'.$builder->query.'*'
+                        ]
                     ],
                 ]
             ];

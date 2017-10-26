@@ -16,8 +16,8 @@
       <file leaf-file-name="ElasticsearchEngine.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ElasticsearchEngine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-116">
-              <caret line="142" column="40" lean-forward="true" selection-start-line="142" selection-start-column="40" selection-end-line="142" selection-end-column="40" />
+            <state relative-caret-position="-174">
+              <caret line="136" column="39" lean-forward="true" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
               <folding>
                 <element signature="e#46#81#0#PHP" expanded="true" />
               </folding>
@@ -118,12 +118,12 @@
       <workItem from="1505285142734" duration="187000" />
       <workItem from="1505286215346" duration="2214000" />
       <workItem from="1508740419467" duration="2795000" />
-      <workItem from="1509013755801" duration="923000" />
+      <workItem from="1509013755801" duration="1151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6457000" />
+    <option name="totallyTimeSpent" value="6685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1016" extended-state="0" />
@@ -295,8 +295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ElasticsearchEngine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="142" column="40" lean-forward="true" selection-start-line="142" selection-start-column="40" selection-end-line="142" selection-end-column="40" />
+        <state relative-caret-position="-174">
+          <caret line="136" column="39" lean-forward="true" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
           <folding>
             <element signature="e#46#81#0#PHP" expanded="true" />
           </folding>
