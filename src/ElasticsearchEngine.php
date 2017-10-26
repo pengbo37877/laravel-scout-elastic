@@ -127,23 +127,35 @@ class ElasticsearchEngine extends Engine
     protected function performSearch(Builder $builder, array $options = [])
     {
         Log::info('es query='.$builder->query);
-        $params = [
-            'index' => $this->index,
-            'type' => $builder->index ?: $builder->model->searchableAs(),
-            'body' => [
-                'query' => [
-                    'multi_match' => [
-                        'query' => $builder->query,
-                        'type' => 'best_fields',
-                        'fields' => isset($builder->model->searchableFields)?$builder->model->searchableFields:[],
-                        'tie_breaker' => 0.3,
-                        'minimum_should_match' => '100%'
+
+        if (isset($builder->model->wildcard)) {
+            $params = [
+                'index' => $this->index,
+                'type' => $builder->index ?: $builder->model->searchableAs(),
+                'body' => [
+                    'query' => [
+                        'wildcard' => $builder->model->wildcard
                     ],
-                    'wildcard' => isset($builder->model->wildcard)?$builder->model->wildcard:[]
-                ],
-                'sort' => isset($builder->model->sortRules)?$builder->model->sortRules:[],
-            ]
-        ];
+                ]
+            ];
+        }else{
+            $params = [
+                'index' => $this->index,
+                'type' => $builder->index ?: $builder->model->searchableAs(),
+                'body' => [
+                    'query' => [
+                        'multi_match' => [
+                            'query' => $builder->query,
+                            'type' => 'best_fields',
+                            'fields' => isset($builder->model->searchableFields)?$builder->model->searchableFields:[],
+                            'tie_breaker' => 0.3,
+                            'minimum_should_match' => '100%'
+                        ],
+                    ],
+                    'sort' => isset($builder->model->sortRules)?$builder->model->sortRules:[],
+                ]
+            ];
+        }
 
         if ($sort = $this->sort($builder)) {
             $params['body']['sort'] = $sort;
