@@ -126,7 +126,7 @@ class ElasticsearchEngine extends Engine
      */
     protected function performSearch(Builder $builder, array $options = [])
     {
-        Log::info('sortRules='.json_encode($builder->model->sortRules));
+        Log::info('es query='.$builder->query);
         $params = [
             'index' => $this->index,
             'type' => $builder->index ?: $builder->model->searchableAs(),
@@ -135,13 +135,13 @@ class ElasticsearchEngine extends Engine
                     'multi_match' => [
                         'query' => $builder->query,
                         'type' => 'best_fields',
-//                        'fields' => ["author", "name^5", "isbn", "translator"],
-                        'fields' => $builder->model->searchableFields,
+                        'fields' => isset($builder->model->searchableFields)?$builder->model->searchableFields:[],
                         'tie_breaker' => 0.3,
                         'minimum_should_match' => '100%'
-                    ]
+                    ],
+                    'wildcard' => isset($builder->model->wildcard)?$builder->model->wildcard:[]
                 ],
-                'sort' => $builder->model->sortRules,
+                'sort' => isset($builder->model->sortRules)?$builder->model->sortRules:[],
             ]
         ];
 
