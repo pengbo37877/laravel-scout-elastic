@@ -151,7 +151,7 @@ class ElasticsearchEngine extends Engine
                             'type' => 'best_fields',
                             'fields' => isset($builder->model->searchableFields)?$builder->model->searchableFields:[],
                             'tie_breaker' => 0.3,
-                            'minimum_should_match' => '100%'
+                            'minimum_should_match' => '50%'
                         ],
                     ],
                     'sort' => isset($builder->model->sortRules)?$builder->model->sortRules:[],

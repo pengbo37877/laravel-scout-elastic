@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7850c59-d11f-41d1-bd16-30a419059476" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ElasticsearchEngine.php" afterPath="$PROJECT_DIR$/src/ElasticsearchEngine.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="ElasticsearchEngine.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ElasticsearchEngine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-174">
-              <caret line="136" column="39" lean-forward="true" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
+            <state relative-caret-position="456">
+              <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
               <folding>
                 <element signature="e#46#81#0#PHP" expanded="true" />
               </folding>
@@ -68,8 +69,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,6 +80,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -118,12 +119,13 @@
       <workItem from="1505285142734" duration="187000" />
       <workItem from="1505286215346" duration="2214000" />
       <workItem from="1508740419467" duration="2795000" />
-      <workItem from="1509013755801" duration="1151000" />
+      <workItem from="1509013755801" duration="2332000" />
+      <workItem from="1509333208218" duration="107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6685000" />
+    <option name="totallyTimeSpent" value="7973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1016" extended-state="0" />
@@ -159,20 +161,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ElasticsearchEngine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4557">
+          <caret line="152" column="49" lean-forward="false" selection-start-line="152" selection-start-column="49" selection-end-line="152" selection-end-column="49" />
+          <folding>
+            <element signature="e#46#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <marker date="1505285218000" expanded="true" signature="0:832" ph="{&quot;name&quot;: &quot;pengbo37877/laravel-scout-elastic&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="187:299" ph="{&quot;php&quot;: &quot;&gt;=5.6.4&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="321:434" ph="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="452:540" ph="{...}" />
-            <marker date="1505285218000" expanded="true" signature="471:534" ph="{&quot;ScoutEngines\Elasticsearch\&quot;: &quot;src/&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="562:657" ph="{...}" />
-            <marker date="1505285218000" expanded="true" signature="581:651" ph="{&quot;ScoutEngines\Elasticsearch\Test\&quot;: &quot;tests&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="674:771" ph="{&quot;elasticsearch/elasticsearch&quot;: &quot;Required to use the Elasticsearch engine (^5.0).&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -190,16 +192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <marker date="1505285218000" expanded="true" signature="0:832" ph="{&quot;name&quot;: &quot;pengbo37877/laravel-scout-elastic&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="187:299" ph="{&quot;php&quot;: &quot;&gt;=5.6.4&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="321:434" ph="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="452:540" ph="{...}" />
-            <marker date="1505285218000" expanded="true" signature="471:534" ph="{&quot;ScoutEngines\Elasticsearch\&quot;: &quot;src/&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="562:657" ph="{...}" />
-            <marker date="1505285218000" expanded="true" signature="581:651" ph="{&quot;ScoutEngines\Elasticsearch\Test\&quot;: &quot;tests&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="674:771" ph="{&quot;elasticsearch/elasticsearch&quot;: &quot;Required to use the Elasticsearch engine (^5.0).&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -280,23 +272,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <marker date="1505285218000" expanded="true" signature="0:832" ph="{&quot;name&quot;: &quot;pengbo37877/laravel-scout-elastic&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="187:299" ph="{&quot;php&quot;: &quot;&gt;=5.6.4&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="321:434" ph="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="452:540" ph="{...}" />
-            <marker date="1505285218000" expanded="true" signature="471:534" ph="{&quot;ScoutEngines\Elasticsearch\&quot;: &quot;src/&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="562:657" ph="{...}" />
-            <marker date="1505285218000" expanded="true" signature="581:651" ph="{&quot;ScoutEngines\Elasticsearch\Test\&quot;: &quot;tests&quot;...}" />
-            <marker date="1505285218000" expanded="true" signature="674:771" ph="{&quot;elasticsearch/elasticsearch&quot;: &quot;Required to use the Elasticsearch engine (^5.0).&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ElasticsearchEngine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="136" column="39" lean-forward="true" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
+        <state relative-caret-position="456">
+          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
           <folding>
             <element signature="e#46#81#0#PHP" expanded="true" />
           </folding>
